@@ -1,0 +1,184 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+nav{
+    padding: 20px 80px;
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navRight{
+    display: flex;
+    align-items: center;
+}
+
+.navRight a{
+    margin-left: 28px;
+    color: azure;
+    text-decoration: none;
+}
+
+.navLeft i{
+    margin: 8px;
+    color: azure;
+}
+
+.navLeft input{
+    padding: 4px;
+    border-radius: 5px;
+    display: none;
+
+}
+
+
+.mainImg{
+    background-image: url("./Img/slider1.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+}
+.mainImg h1{
+    color: azure;
+    margin: auto;
+    font-size: 70px;
+
+}
+
+.mainProducts{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.product{
+    margin: 20px;
+    padding: 15px;
+    background-color: #D1FFF3;
+    width: 400px;
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 25px;
+}
+
+.product img{
+    width: 100%;
+    height: 300px;
+}
+.product button{
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(132, 130, 130);
+}
+
+.product button:hover{
+    background-color: #dae4e2;
+}
+
+.product .sale{
+    text-decoration: line-through;
+}
+.product span{
+    margin-right: 15px;
+
+}
+
+main .about{
+    background-image: url("./Img/banner.webp");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.aboutTxtDiv{
+    padding: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about h1{
+    color: #D1FFF3;
+
+}
+
+.about p{
+    color: #D1FFF3;
+}
+
+.footDepartments{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222831;
+    padding: 30px 60px;
+}
+
+.footDepartments div{
+    margin: 20px;
+    
+    
+}
+
+
+.footDepartments p, .footDepartments h4 {
+    color: #D1FFF3;
+    cursor: pointer;
+    line-height: 25px;
+}
+.footDepartments h4{
+    margin-bottom: 5px;
+}
+
+.footDepartments i{
+    color: #D1FFF3;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footDepartments input{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.thisProduct{
+    display: flex;
+}
+
+.thisProduct p{
+    color: #222831;
+    display: inline-block;
+    cursor: context-menu;
+}
+.thisProductImg{
+    display: inline-block;
+}
+
+.thisProduct img{
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.thisProductText{
+    width:  38%;
+    display: inline-block;
+}
+
+.thisProductText .txt{
+    margin: 7px;
+}
+
+.thisProductText h1{
+    display: inline-block;
+}
